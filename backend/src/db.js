@@ -4,12 +4,6 @@ const { Pool } = pkg;
 import dotenv from 'dotenv';
 dotenv.config();
 
-
-console.log('DB CONFIG:', {
-  user: process.env.DB_USER,
-  database: process.env.DB_NAME,
-});
-
 const pool = new Pool({
   host: process.env.DB_HOST,
   port: process.env.DB_PORT,
@@ -17,6 +11,10 @@ const pool = new Pool({
   password: process.env.DB_PASSWORD || undefined,
   database: process.env.DB_NAME,
 });
+
+export const closeDB = async () => {
+  await pool.end();
+};
 
 export default {
   query: (text, params) => pool.query(text, params),

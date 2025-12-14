@@ -5,10 +5,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "start": "node src/server.js",
-  "dev": "nodemon --require dotenv/config src/server.js",
-  "test": "jest --runInBand"
-},
+    "start": "node src/server.js",
+    "dev": "nodemon --require dotenv/config src/server.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
