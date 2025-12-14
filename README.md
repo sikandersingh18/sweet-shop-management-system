@@ -1,9 +1,5 @@
 # sweet-shop-management-system
 
-# sweet-shop-management-system
-
-# 🍬 Sweet Shop Management System
-
 A full-stack Sweet Shop Management System built as part of the Incubyte Placement Assessment.  
 The application allows users to browse and purchase sweets, while administrators can manage inventory securely through a role-based system.
 
