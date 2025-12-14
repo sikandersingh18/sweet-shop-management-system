@@ -172,9 +172,30 @@ Debugging integration issues between frontend and backend
 
 Improving UI/UX structure and readability
 
-Reflection
+AI Reflection
 
 AI helped speed up development and resolve technical blockers, but all logic, architectural decisions, and final implementations were reviewed, understood, and finalized manually.
+
+All AI-generated code was:
+
+Carefully reviewed
+
+Modified where necessary
+
+Integrated intentionally based on project requirements
+
+I ensured that I fully understood every part of the final implementation and could explain all design decisions, trade-offs, and logic during an interview. Using AI responsibly allowed me to focus more on architecture, correctness, and overall code quality.
+
+AI Transparency Commitment
+
+In accordance with the assessment guidelines:
+
+All commits where AI assistance was used include an AI co-author in the commit message.
+
+No code was copied from external repositories.
+
+The final solution represents my own work, augmented responsibly by AI.
+
 
 📌 Notes
 
